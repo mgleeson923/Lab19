@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Lab19</title>
+      <link rel="stylesheet" href="css/style.css"> 
+    <script src = "js/index.js">
+    </script>
+</head>
+  <body>
+    <h1>Michael's Shopping List</h1>
+    <div id ="p1">
+			Milk - $1.99
+		<button onclick ="addToCart('Milk',1.99); return false;">Add to Cart</button>
+      <br>
+			Pizza Lunchable - $.99
+		<button onclick ="addToCart('Pizza Lunchable',.99); return false;">Add to Cart</button>
+    <br>
+			Dish Soap - $2.99
+		<button onclick ="addToCart('Dish Soap', 2.99); return false;">Add to Cart</button>
+   <br>
+			Cheerios - $1.99
+		<button onclick ="addToCart('Cheerios', 1.99); return false;">Add to Cart</button>
+        <br>
+			Bread - $1.79
+		<button onclick ="addToCart('Bread', 1.79); return false;">Add to Cart</button>
+        <br>
+        Coffee - $.99
+		<button onclick ="addToCart('Coffee',.99); return false;">Add to Cart</button>
+    <br>
+        Orange Juice - $1.99
+		<button onclick ="addToCart('Orange Juice',1.99); return false;">Add to Cart</button>
+    <br>
+        Oreos - $1.59
+		<button onclick ="addToCart('Oreos',1.59); return false;">Add to Cart</button>
+    <br>
+        Ice Cream - $1.99
+		<button onclick ="addToCart('Ice Cream',1.99); return false;">Add to Cart</button>
+      </div>
+    <br>
+      <h2>Shopping Cart</h2>
+    <br>
+       <p id="item"></p>
+      <button onclick ="createTotal('Ice Cream',1.99); return false;">Grand Total</button>
+      
+      <h3>Grand Total</h3>
+
+</body>
+</html>
